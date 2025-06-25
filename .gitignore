@@ -1,0 +1,9 @@
+# Ignore Parquet files so that they don't bog us down when
+# pushing/pulling
+data/*.parquet
+
+# IPython
+.ipynb_checkpoints/*
+
+# Mac-specific files
+.DS_Store
