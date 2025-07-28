@@ -1,6 +1,6 @@
 # Ignore Parquet files so that they don't bog us down when
 # pushing/pulling
-data/*.parquet
+data/train*.parquet
 
 # IPython
 .ipynb_checkpoints/*
